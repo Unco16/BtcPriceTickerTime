@@ -4,7 +4,7 @@ This program runs on an ESP8266 (Wemos D1 mini) and displays the Bitcoin price a
 Time and price are checked at regular interval (60s). The display alternates between time and price every 8s.
 
 I have designed a Bitcoin character that can be 3D printed, where the Wemos and the display can fit.
-You can download it from:
+You can download it from: https://www.thingiverse.com/thing:4747477/files
 
 You need to adjust the timeOffset value according to your timezone. Default value is 3600 seconds, GMT+1.
 Example of values: GMT +1 = 3600, GMT +8 = 28800, GMT -1 = -3600, GMT 0 = 0.
@@ -24,6 +24,12 @@ https://www.coingecko.com/en/api
 - Ledcontroller(2.0.0-rc1). https://github.com/noah1510/LedController
 - NTPClient(3.1.0). Can be installed directly from Plaform.io
 - ElegantOTA(2.2.4). Can be installed directly from Plaform.io
+
+# Hardware
+- Wemos d1 mini
+- MAX7219 8 digits segment display
+- Micro USB on PCB    https://www.aliexpress.com/item/4001247388735.html
+- Wire
 
 
 # Future improvements
