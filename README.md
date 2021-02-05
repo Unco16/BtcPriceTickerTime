@@ -16,6 +16,7 @@ Firmware can be updated OTA. Go to http://WEMOS_IP_ADDRESS/update
 I have decided to use the Coingecko API because it does not require an API key and there is no real limitation regarding the number of request that can be made per 24 hours. Price is checked every minutes, so 1440 requests every 24 hours.
 https://www.coingecko.com/en/api
 
+I got inspired by the following code, so thanks to Nimrod-Galor. https://github.com/Nimrod-Galor/Simple-Bitcoin-Ticker
 
 # Libraries needed
 
