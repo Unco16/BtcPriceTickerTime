@@ -19,7 +19,9 @@ https://www.coingecko.com/en/api
 I got inspired by the following code, so thanks to Nimrod-Galor. https://github.com/Nimrod-Galor/Simple-Bitcoin-Ticker
 
 
+
 **UPDATE 2024:**
+
 
 - Added a web server
 - Host a web page that shows the time and BTC price. Values are automatically refreshed.
