@@ -7,6 +7,9 @@ You need to adjust the timeOffset value according to your timezone. Default valu
 Example of values: GMT +1 = 3600, GMT +8 = 28800, GMT -1 = -3600, GMT 0 = 0.
 It uses Wifimanager so you dont need to hardcode your wifi credentials. Flash your ESP and it will make a wifi network that you can join from your phone (default password is: "pwd123456")to select your wifi and set your password.
 Firmware can be updated OTA.
+
+![large_display_Btc_Pic_Fusion](https://github.com/user-attachments/assets/ad0010b7-baf8-4db9-9a62-e5666d76c4d3)
+
   
 It to use the Coingecko API because (no API key needed). Price is checked every minutes, so 1440 requests every 24 hours.
 https://www.coingecko.com/en/api
