@@ -13,18 +13,25 @@ It uses Wifimanager so you dont need to hardcode your wifi credentials. Flash yo
 
 Firmware can be updated OTA. Go to http://WEMOS_IP_ADDRESS/update
   
-I have decided to use the Coingecko API because it does not require an API key and there is no real limitation regarding the number of request that can be made per 24 hours. Price is checked every minutes, so 1440 requests every 24 hours.
+It to use the Coingecko API because (no API key needed). Price is checked every minutes, so 1440 requests every 24 hours.
 https://www.coingecko.com/en/api
 
 I got inspired by the following code, so thanks to Nimrod-Galor. https://github.com/Nimrod-Galor/Simple-Bitcoin-Ticker
 
 # Libraries needed
 
-- Wifimanager(0.16.0). Can be installed directly from Plaform.io
-- Arduinojson(6.17.2). Can be installed directly from Plaform.io
-- Ledcontroller(2.0.0-rc1). https://github.com/noah1510/LedController
-- NTPClient(3.1.0). Can be installed directly from Plaform.io
-- ElegantOTA(2.2.4). Can be installed directly from Plaform.io
+- WiFiManager.h (2.0.17) /  to managed wifi networks
+- ArduinoJson.h (7.2.0) /  to manipulate json
+- LedControl.h (1.0.6) /  to control the leg segments
+- NTPClient.h (3.2.1) /  to check time online
+- ESP8266WebServer.h /  to host a webpage
+- ESP8266httpUpdate.h (2.1.145) / to update the firmware via wifi
+- PubSubClient.h (2.8)
+- ESP8266WiFi.h
+- ESP8266HTTPClient.h
+- WiFiClientSecureBearSSL.h
+- WiFiUdp.h
+- FS.h 
 
 # Hardware
 - Wemos d1 mini
@@ -33,10 +40,5 @@ I got inspired by the following code, so thanks to Nimrod-Galor. https://github.
 - Wire
 
 
-# Future improvements
-
-- Add simple webpage to configure basic settings (display brightness, alarm, etc...)
-- Add price and time alarm functions (could add a buzzer)
-- Motorize the right arm of character so it can point up when Bitcoin price is up the last 24h, and the opposite when price is down.
 
 
