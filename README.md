@@ -27,7 +27,7 @@ I got inspired by the following code, so thanks to Nimrod-Galor. https://github.
 - Added restart button
 - Added light and dark theme
 
-Here is a preview of the webpage:
+<p>Here is a preview of the webpage:</p>
 ![Screenshot from 2024-10-20 14-47-02](https://github.com/user-attachments/assets/fd0a32b3-a8cb-423d-9c6f-95b75a3492b5)
 
   
