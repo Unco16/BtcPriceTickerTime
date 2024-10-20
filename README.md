@@ -25,13 +25,13 @@ I got inspired by the following code, so thanks to Nimrod-Galor. https://github.
 - LedControl.h (1.0.6) /  to control the leg segments
 - NTPClient.h (3.2.1) /  to check time online
 - ESP8266WebServer.h /  to host a webpage
-- ESP8266httpUpdate.h (2.1.145) / to update the firmware via wifi
-- PubSubClient.h (2.8)
-- ESP8266WiFi.h
-- ESP8266HTTPClient.h
-- WiFiClientSecureBearSSL.h
-- WiFiUdp.h
-- FS.h 
+- PubSubClient.h (2.8) / MQTT client
+- ESP8266WiFi.h / wifi network
+- ESP8266HTTPClient.h / HTTP client
+- WiFiClientSecureBearSSL.h / use to support SSL
+- WiFiUdp.h / for UDP
+- FS.h / use to interact with SPIFSS flash memory
+- ESP8266HTTPUpdateServer.h / OTA update
 
 # Hardware
 - Wemos d1 mini
