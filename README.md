@@ -15,7 +15,7 @@ I got inspired by the following code, so thanks to Nimrod-Galor. https://github.
 - Added a web server
 - Host a web page that shows the time and BTC price. Values are automatically refreshed.
 - Now possible to configure your MQTT broker details directly from the webpage
-- Added Alarm feature. You can configure the alarm from the webpage. When the alarm is triggered, the display will show '88888888'.
+- Added Alarm feature that can send MQTT message. You can configure the alarm from the webpage. When the alarm is triggered, the display will show '88888888'.
   If you use Home Assistant, you can modify the MQTT topic in the code:
   see: const char* mqttTopic = "sonos/play_spotify_alarm_btcclock";
   Music source and volume can be adjusted in the 'SendMQTTMessage' function
