@@ -23,6 +23,9 @@ I got inspired by the following code, so thanks to Nimrod-Galor. https://github.
 - Added OTA tab
 - Added restart button
 - Added light and dark theme
+
+![Screenshot from 2024-10-20 14-47-02](https://github.com/user-attachments/assets/fd0a32b3-a8cb-423d-9c6f-95b75a3492b5)
+
   
 # Libraries needed
 - WiFiManager.h (2.0.17) /  to managed wifi networks
